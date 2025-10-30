@@ -1,0 +1,11 @@
+css: "css/markdown-memo.css"
+mathjax: true
+navigation: true
+
+documentclass: article
+fontsize: 11pt
+toc: false
+numbersections: false
+
+date-meta: true
+math: true

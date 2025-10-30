@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/markdown-memo.css" />
+
+
+<!--- MathJax stuff -->
+<script type="text/javascript" src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
+</script>
+
+<!--- toggle_more function  -->
+<script type="text/javascript">
+    //<![CDATA[
+    function toggle_more(objID) {
+        if (!document.getElementById) return;
+        var ob = document.getElementById(objID).style;
+        ob.display = (ob.display == 'block')?'none':'block';
+        var ob2 = document.getElementById('link:'+objID);
+        ob2.className = (ob2.className == 'open') ? 'closed' : 'open';
+    }
+    //]]>
+</script>
+
+</head>
+
+<body>
+
+<hr/>
+<!--
+<div id="site_header">
+</div>
+-->
+
+<!--
+<div id="beforebody">
+</div>
+-->
+
+<div id="mainbody">
+<div id="pagecontainer">
+
+<!--- NOTE: h1 already included. Start writing index.md with an h2 -->
+
+
+
+
+<h2 id="math">Math</h2>
+<ul>
+<li><a href="diff_eq.html">Differential Equations</a></li>
+<li><a href="hw_1.html">HW 1</a></li>
+</ul>
+<h2 id="cs">CS</h2>
+<ul>
+<li><a href="comp_arch.html">Comp Arch notes</a></li>
+</ul>
+
+</div> <!-- end pagecontainer -->
+</div> <!-- end mainbody -->
+
+<!--
+<div id="afterbody">
+</div>
+-->
+
+<div id="site_footer">
+  <div class="signature">
+    <p><i></i></p>
+    
+    <p></p>
+  </div>
+  <div class="license">
+    
+    <p>Made with <a href="https://github.com/rreece/markdown-memo">markdown-memo</a>.</p>
+  </div>
+  <div style="clear:both;"></div>
+</div>
+
+
+</body>
+</html>
